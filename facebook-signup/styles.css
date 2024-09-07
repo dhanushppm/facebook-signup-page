@@ -1,0 +1,123 @@
+body, h1, h2, p{
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.main-div{
+    background-color:#f0f2f5;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    padding:50px;
+}
+#logo{
+    padding:15px 0px;
+    font-size:57px;
+    color:#0866ff;
+}
+.signup-form{
+    background-color:white;
+    width: 430px;
+    border-radius:7px;
+    border-bottom: 1px solid #ccc;
+}
+.text{
+    padding:10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+h2{
+    padding-bottom: 5px;
+}
+.input-fields{
+    padding:15px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+input, select{
+    padding:8px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.halfwidth{
+    display:flex;
+    width:48%;
+}
+.fullwidth{
+    width:100%;
+    display:flex;
+}
+.dob{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.quat-width{
+    width:31%;
+    display:flex;
+    padding:10px 0px;
+}
+label{
+    color:#606770;
+    font-size:12px;
+    width:100%;
+}
+.radio_btn{
+    border:1px solid #ccc;
+    border-radius:5px;
+    width:100%;
+    padding:8px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio_label{
+    padding-bottom:0;
+    font-size: 15px;
+}
+.radio_input{
+    margin:0;
+    width:auto;
+}
+small{
+    font-size: 11px;
+    color: #777;
+    padding:6px;
+}
+a{
+    text-decoration: none;
+}
+.sign-up{
+    background-color:#00a400;
+    color:white;
+    padding:8px 55px;
+    border-radius: 6px;
+    height:36px;
+    font-weight: 500;
+    border:0;
+    font-size:18px;
+
+}
+.sign-div{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding:10px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding:7px;
+    font-size: 17px;
+    line-height: 20px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
